@@ -1,0 +1,14 @@
+censored5 bot
+-----------------------------
+
+This is copy of latest source code for @censored5 bot.
+
+I wrote and ran this script some years ago.
+It's so dirty, I know.
+All of files aren't modified from original (only README added).
+
+I found a bug when I was checking the source to find codes which shouldn't publish. So you shouldn't run this without fixing it.
+The bug is SQL Injection in database.rb. (too rudimentary...)
+
+And I think spam.rb must be SPAM Checker but it hasn't implemented.
+

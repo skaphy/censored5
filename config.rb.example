@@ -1,0 +1,46 @@
+#!/usr/bin/ruby
+# <censored> bot 5.00
+# Written by sky
+# config.rb - config file
+
+# OAuth
+CONSUMER_KEY=''
+CONSUMER_SECRET=''
+ACCESS_TOKEN=''
+ACCESS_TOKEN_SECRET=''
+
+# Statics database
+DB_HOST=""
+DB_DATABASE=""
+DB_USER=""
+DB_PASS=""
+
+# Max of thread processing post
+MAXPTHREAD=5
+
+# Own user id
+OWNID=
+
+# Timeout of procpost.rb
+TIMEOUT_PROCPOST=30
+
+# Reconnecting out of this value
+RECONNECT_TIMEOUT=60*60
+
+# Path of pid file of censored.rb
+# If it exists, chkalive.rb will restart censored.rb.
+# (If you delete PIDFILE, chkalive.rb will not restart it.)
+#PIDFILE="/home/twitter/bot/censored5/censored.pid"
+
+# Interval for search and follow
+SEARCH_INTERVAL=60*60
+
+# number for search and follow
+SEARCH_NUM=50
+
+# If user point is greater than FOLLOW_POINT, it follows the user
+FOLLOW_POINT=10
+
+# debug
+DEBUGMODE=false
+

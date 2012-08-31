@@ -1,0 +1,67 @@
+#!/usr/bin/ruby
+# <censored> bot 5.00
+# Written by sky
+
+module Censored
+	WORDS = [
+		["セックス", false],
+		["ちんこ", false],
+		["手コキ", false],
+		["足コキ", false],
+		["パイズリ", false],
+		["ペドフィリア", false],
+		["勃起", false],
+		["まんこ", false],
+		["レイプ", false],
+		["ロリコン", false],
+		["フェラチオ", false],
+		["イマラチオ", false],
+		["sex", false],
+		["ちんちん", false],
+		["ちんぽ", false],
+		["スク水", false],
+		["ぱんつ", true],
+		["幼女", true],
+		["TENGA", false],
+		["クンニ", true],
+		["射精", false],
+		["顔射", false],
+		["貧乳", false],
+		["淫乱", false],
+		["肉棒", false],
+		["肉便器", false],
+		["チン毛", false],
+		["陰茎", false],
+		["ペニス", false],
+		["ヴァギナ", false],
+		["クリトリス", false],
+		["乱交", false],
+		["イラマチオ", false],
+		["ペド", false],
+		["中出し", false],
+		["おめこ", false],
+		["パイズリ", false],
+		["巨乳", false],
+		["縞パン", false],
+		["白濁液", false],
+		["フェラ", false],
+		["まん毛", false],
+		["手淫", false],
+		["陰毛", false],
+		["陵辱", false],
+		["獣姦", false],
+		["fuck", false],
+		["マン汁", true],
+		["おっぱい", false],
+		["porn", false],
+		["アナル", false],
+		["ショタコン", false],
+	]
+	# Not implement but it will be implement.
+	EXCLUDE = [
+		["あけおめことよろ", false],
+		["sexy", false],
+		["かふぇらて", false],
+	]
+end
+
